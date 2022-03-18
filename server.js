@@ -23,11 +23,11 @@ connection.connect(err => {
 
 //Function after connection is established
 afterConnection = () => {
-        console.log("***********************************")
-        console.log("*                                 *")
-        console.log("*          EMPLOYEE MANAGER       *")
-        console.log("*                                 *")
-        console.log("***********************************")
+        console.log(`
+        =========================
+        Welcome to Your Staff Hub
+        =========================
+        `);
         prompUser();
 
         //First inquirer prompt when user starts application
@@ -165,8 +165,74 @@ afterConnection = () => {
                 };
 
                 //Function to add a role
-                addRole 
-                THEN I am prompted to enter the name, salary, and department for the role and that role is added to the database
+                addRole = () => {
+                    inquirer.prompt([
+                        {
+                            type: "input",
+                            name: "role",
+                            message: "What role do you want to add?",
+                            validate: addRole => {
+                                if (addRole) {
+                                    return true;
+                                } else {
+                                    console.log("Please enter a role.");
+                                    return false;
+                                }
+                            }
+                        },
+                        {
+                            type: "input",
+                            name: "salary",
+                            message: "What is this role's salary?",
+                            validate: addSalary => {
+                                if (isNaN(addSalary)) {
+                                    return true;
+                                } else {
+                                    console.log("Please enter a salary.");
+                                    return false;
+                                }
+                            }
+                        }
+                    ])
+
+                    .then(answer => {
+                        const params = [answer.role, answer.salary];
+
+                        //Get department from department table
+                        const roleSql = `SELECT name, id FROM department`;
+
+                        connection.promise().query(roleSql, (err, data) => {
+                            if (err) throw err;
+
+                            const dept = data.map(({ name, id }) => ({ name: name, value: id}));
+
+                            inquirer.prompt([
+                                {
+                                    type: "list",
+                                    name: "dept",
+                                    message: "What department is the role in?",
+                                    choices: dept
+                                }
+                            ])
+
+                            .then(deptChoice => {
+                                const dept = deptChoice.dept;
+                                params.push(dept);
+
+                                const sql = `INSERT INTO role (title, salary, department_id)
+                                            VALUESb(?, ?, ?)`;
+
+                                connection.query(sql, params, (err, result) => {
+                                    if (err) throw err;
+                                    console.log('Added' + answer.role + " to roles.");
+
+                                    showRoles();
+                                });
+
+                            });
+                        });
+                    });
+                };
                 
 
                 //Function to add an employee
