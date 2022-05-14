@@ -1,10 +1,27 @@
 {
+  "name": "staff-hub",
+  "version": "1.0.0",
+  "description": "A command-line application that manages a company's employee database using Node.js, Inquirer, and MySQL.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbtiglao/staff-hub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbtiglao/staff-hub/issues"
+  },
+  "homepage": "https://github.com/jbtiglao/staff-hub#readme",
   "dependencies": {
     "console.table": "^0.10.0",
-    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
     "inquirer": "^8.2.2",
-    "jest": "^27.5.1",
-    "mysql": "^2.18.1",
     "mysql2": "^2.3.3"
-  }
+  },
+  "devDependencies": {}
 }
