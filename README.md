@@ -6,8 +6,7 @@
   (This is a working draft - assignment not yet submitted.)
 
   ---
-  ## Description
-  
+  ## Description 📌  
  This is a command-line application that manages a company's employee database using Node.js, Inquirer, and MySQL.
  
  It has the following appearance:
@@ -15,7 +14,7 @@
 ![image16_appearance](https://user-images.githubusercontent.com/94569484/168509879-de4e1a31-177a-4a61-ae9c-d1f71960bfb2.png)
 
 
- A **walkthrough video** that demonstrates the functionality of this employee tracker can be viewed by clicking the following links:
+ A **walkthrough video** that demonstrates the features and functionalities of this employee tracker can be viewed by clicking the following links:
 
  * [Part 1, View and Add Functionalities](https://drive.google.com/file/d/1XGdWUR5o0W7IQ5scTarA3xXjIai0W4f7/view)
 
@@ -29,7 +28,7 @@ The **application files** can be accessed on my [Github repository](https://gith
 
 
   ---
-  ## Table of Contents
+  ## Table of Contents 📌  
   1. [Title](#title)
   2. [Description](#description)
   3. [Installation](#installation)
@@ -42,15 +41,15 @@ The **application files** can be accessed on my [Github repository](https://gith
   10. [Questions](#questions)
   
   ---
-  ## Installation
+  ## Installation 📌  
   Clone my repository on GitHub.
 
   
   ---
-  ## Usage
+  ## Usage 📌
   Please see the video and screenshots.
 
-  ### Features and Functionalities
+  ### Features and Functionalities 🔌
   
 1. When the user starts the application, the user is presented with the following options:
     * view all departments,
@@ -144,7 +143,7 @@ The **application files** can be accessed on my [Github repository](https://gith
 
 
   ---
-  ## License
+  ## License 📌  
   License used for this project - MIT
   
   For more information on the above license and other license types, please see the following websites:  
@@ -152,15 +151,15 @@ The **application files** can be accessed on my [Github repository](https://gith
   - [Choose a License](https://choosealicense.com/)
 
   ---
-  ## Contributing
+  ## Contributing 📌
   To contribute to this application, please email the author for guidelines.
 
   ---
-  ## Tests
+  ## Tests 📌
   Test 1
 
   ---
-  ## Credits
+  ## Credits 📌  
   The following were consulted and used in the development of this application:
 
   * UCI Boot Camp study materials, videos, and internet resources on MySQL, Node.js, Express, and Inquirer.
@@ -169,11 +168,11 @@ The **application files** can be accessed on my [Github repository](https://gith
   * [Screencastify](https://www.screencastify.com/?gclid=Cj0KCQjwmuiTBhDoARIsAPiv6L86ZrfuA4fljlKNWMKXRVVi_qKME9cQVwPHjmFd-rb_OYqJlURxmx8aAuTSEALw_wcB)
 
   ---
-  ## Author
+  ## Author 📌
   Jane Tiglao
 
   ---
-  ## Questions
+  ## Questions 📌
   For questions or issues, please contact: 
   - Jane Tiglao 
   - Email: janeytiglao@gmail.com
