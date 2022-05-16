@@ -33,21 +33,35 @@ The **application files** can be accessed on my [Github repository](https://gith
   2. [Description](#description)
   3. [Installation](#installation)
   4. [Usage](#usage)
-  5. [License](#license)
-  6. [Contributing](#contributing)
-  7. [Tests](#tests)
-  8. [Credits](#credits)
-  9. [Author](#author)
-  10. [Questions](#questions)
+  5. [Technologies](#technologies)
+  6. [License](#license)
+  7. [Contributing](#contributing)
+  8. [Tests](#tests)
+  9. [Credits](#credits)
+  10. [Author](#author)
+  11. [Questions](#questions)
   
   ---
   ## Installation 📌  
   * Clone my repository on GitHub.
 
-  * On Visual Studio Code run 
-  ```
-  mysql -u root -p
-  ```
+  * On Visual Studio Code:
+      * Open the cloned file.
+      * Create your `gitignore` and `.env` files.
+      * Check the `dependencies` and `dev dependencies` needed on `package.json`.
+
+  * To set up all the existing npm packages, run `npm in it`.
+
+  * To install the `dependencies` on the `node_modules` folder, run `npm install` or
+      * `npm i mysql2` to install MySQL2,
+      * `npm i inquirer` to install Inquirer,
+      * `npm i node` to install Node.js, and
+      * `npm i console.table` to install console.table.
+  
+  * Run MySql by entering the following command on the terminal:
+        ```
+        mysql -u root -p
+        ```
   * Create the `schema.sql` tables and pre-populate the database with the data found in the `seeds.sql` files. 
 
   * To invoke the application, run
@@ -153,6 +167,14 @@ The **application files** can be accessed on my [Github repository](https://gith
 
 
   ---
+
+  ## Technologies
+  1. Javascript
+  2. MySQL
+  3. Node.js
+  4. Inquirer
+
+  ---
   ## License 📌  
   License used for this project - MIT
   
@@ -174,6 +196,7 @@ The **application files** can be accessed on my [Github repository](https://gith
 
   * UCI Boot Camp study materials, videos, and internet resources on MySQL, Node.js, Express, and Inquirer.
   * Jeff Howell and Mike Scharf for the homework walk-through videos (Thanks for putting them together and sharing them in the meeting room. They are a big help!).
+  * The grader for my Social Media API assignment, whose comments encouraged me to plow through with my employee tracker app -- an assignment I considered to be one of the hardest and most tedious to do -- and not give up and submit subpar work. The grader also taught me the standard that I should keep when writing my README files. *Thank you!* 
   * [mySQL](https://www.mysql.com/)
   * [Node.js](https://nodejs.org/en/)
   * [npmjs](https://www.npmjs.com/) packages and documentations on MySQL2, Node.js, Inquirer, and Express.js.
