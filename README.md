@@ -34,6 +34,57 @@
   ## Usage
   Please see the video and screenshots.
 
+  ### Features and Functionalities
+  
+1. When the user starts the application, the user is presented with the following options:
+    * view all departments,
+    * view all roles,
+    * view all employees,
+    * add a department,
+    * add a role,
+    * add an employee, 
+    * update an employee role,
+    * update an employee's manager,
+    * delete a department,
+    * delete a role,
+    * delete an employee,
+    * view employees by manager,
+    * view employees by role,
+    * view employees by department, and
+    * view a department budget.
+
+2. When the user chooses to view all departments, the user is presented with a formatted table showing department names and department ids.
+
+3. When the user chooses to view all roles, the user is presented with the job title, role id, the department that role belongs to, and the salary for that role.
+
+4. When the user chooses to view all employees, the user is presented with a formatted table showing employee data, including employee ids, first names, last names, job titles, departments, salaries, and managers that the employees report to.
+
+5. When the user chooses to add a department, the user is prompted to enter the name of the department and that department is added to the database.
+
+6. When the user chooses to add a role, the user is prompted to enter the name, salary, and department for the role and that role is added to the database.
+
+7. When the user chooses to add an employee, the user is prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database.
+
+8. When the user chooses to update an employee role, the user is prompted to select an employee to update and their new role, and this information is updated in the database. 
+
+9. When the user chooses to update an employee's manager, the user is prompted to select an employee to update and their new manager, and this information is updated in the database.
+
+10. When a user chooses to delete a department, the user is prompted to select the department and this information is updated in the database.
+
+11. When the user chooses to delete a role, the user is prompted to select the role and this information is updated in the database.
+
+12. When the user chooses to delete an employee, the user is prompted to select the employee and this information is upadted in the database.
+
+13. When the user chooses to view employees by manager, the user is presented with a formatted table showing the (rank and file) employee data, including employee ID, first names, and last names.
+
+14. When the user chooses to view employees by role, the user is presented with a formatted table showing (rank and file) employee data, including employee ID, first names, and last names.
+
+15. When the user chooses to view employees by department, the user is presented with a formatted table showing all employees in the department and their employee data, including employee ID, first names, last names, title, and salary.
+
+user is presented with a formatted table showing employee data, including employee ids, first names, last names, job titles, departments, salaries, and managers that the employees report to.
+    
+16. When the user chooses to view the budget of a department, the user is prompted to select the department and is presented with the total utilized budget of a department&mdash;, which is the combined salaries of all employees in that department.
+
   ---
   ## License
   License used for this project - MIT
