@@ -1,5 +1,5 @@
 # Staff Hub 💻
-[Unit 12, SQL - Employee Tracker Assignment]
+[Unit 12, SQL - Employee Management System Assignment]
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -100,30 +100,30 @@ The **application files** can be accessed on my [Github repository](https://gith
 ![image2_view-all-depts](https://user-images.githubusercontent.com/94569484/168504095-e1c65da9-b859-4210-bb8e-c0b1a908aff8.png)
 
 
-3. When the user chooses to view all roles, the user is presented with the job title, role id, the department that role belongs to, and the salary for that role.
+3. When the user chooses to view all roles, the user is presented with the job title, role id, the department the role belongs to, and the salary for the role.
 
 
 ![image3_view-all-roles](https://user-images.githubusercontent.com/94569484/168504159-6e994598-81f6-4034-b07f-9cdbd04e8273.png)
 
 
-4. When the user chooses to view all employees, the user is presented with a formatted table showing employee data, including employee ids, first names, last names, job titles, departments, salaries, and managers that the employees report to.
+4. When the user chooses to view all employees, the user is presented with a formatted table showing employee data, including employee ids, first names, last names, job titles, departments, salaries, and managers the the employees report to.
 
 ![image4_view-all-employees](https://user-images.githubusercontent.com/94569484/168504255-9bcc8fce-a8b9-4197-9c94-9563b39b0929.png)
 
 
-5. When the user chooses to add a department, the user is prompted to enter the name of the department and that department is added to the database.
+5. When the user chooses to add a department, the user is prompted to enter the name of the department and the department is added to the database.
 
 ![image5_add-dept](https://user-images.githubusercontent.com/94569484/168505252-0f7454d4-b97c-4f8f-91b7-66d8574b294f.png)
 
 
-6. When the user chooses to add a role, the user is prompted to enter the name, salary, and department for the role and that role is added to the database.
+6. When the user chooses to add a role, the user is prompted to enter the name, salary, and department for the role and the role is added to the database.
 
 ![image6_add-role](https://user-images.githubusercontent.com/94569484/168505312-1fdf2274-e7d9-424d-88cb-fbf5a024a8c5.png)
 
 ![image7_add-role2](https://user-images.githubusercontent.com/94569484/168505372-cabc8c31-4edd-4af9-b67a-6bf2eb45f889.png)
 
 
-7. When the user chooses to add an employee, the user is prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database.
+7. When the user chooses to add an employee, the user is prompted to enter the employee’s first name, last name, role, and manager, and the employee is added to the database.
 
 ![image8_add-employee](https://user-images.githubusercontent.com/94569484/168505177-77749d58-f6c0-4fa4-8a23-e6b6c6d74bb8.png)
 
@@ -148,20 +148,20 @@ The **application files** can be accessed on my [Github repository](https://gith
 ![image12_delete-role](https://user-images.githubusercontent.com/94569484/168506287-816d73cc-ef65-45c5-874a-017306fe1286.png)
 
 
-12. When the user chooses to delete an employee, the user is prompted to select the employee and this information is upadted in the database.
+12. When the user chooses to delete an employee, the user is prompted to select the employee and this information is updated in the database.
 
 ![image11_delete-employee](https://user-images.githubusercontent.com/94569484/168506135-dc391ae9-088b-4709-b6e8-1b45dcd98a45.png)
 
 
-13. When the user chooses to view employees by manager, the user is presented with a formatted table showing the (rank and file) employee data, including employee ID, first names, and last names.
+13. When the user chooses to view employees by manager, the user is presented with a formatted table showing the (rank and file) employees who report to the said manager, and their data which include their employee ID, first names, and last names.
 
-14. When the user chooses to view employees by role, the user is presented with a formatted table showing (rank and file) employee data, including employee ID, first names, and last names.
+14. When the user chooses to view employees by role, the user is presented with a formatted table showing the (rank and file) employees who perform the said role, and their data which include their employee ID, first names, and last names.
 
-15. When the user chooses to view employees by department, the user is presented with a formatted table showing all employees in the department and their employee data, including employee ID, first names, last names, title, and salary.
+15. When the user chooses to view employees by department, the user is presented with a formatted table showing all employees in the said department (i.e., managerial and rank and file) and their employee data which include their employee ID, first names, last names, title, and salary.
 
 ![image14_view-employees-by-mngr-role-dept png](https://user-images.githubusercontent.com/94569484/168506841-82bec790-6439-4c54-9153-8097819cdb3a.png)
 
-16. When the user chooses to view the budget of a department, the user is prompted to select the department and is presented with the total utilized budget of a department&mdash;, which is the combined salaries of all employees in that department.
+16. When the user chooses to view the budget of a department, the user is prompted to select the department and is presented with the total utilized budget of a department, which is the combined salaries of all employees in that department.
 
 ![image15_view-dept-budget](https://user-images.githubusercontent.com/94569484/168507675-d55fc8d2-7cef-4f44-923f-3f362db2d23d.png)
 
