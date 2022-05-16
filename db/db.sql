@@ -1,3 +1,3 @@
-DROP DATABASE IF EXISTS employee_trackerDB;
-CREATE DATABASE employees_trackerDB;
-USE employee_trackerDB;
+DROP DATABASE IF EXISTS staff_hubDB;
+CREATE DATABASE staff_hubDB;
+USE staff_hubDB;
