@@ -1,4 +1,4 @@
-# Staff Hub (Employee Tracker)
+# Staff Hub (Employee Tracker) 💻
 [Unit 12, SQL Assignment]
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
