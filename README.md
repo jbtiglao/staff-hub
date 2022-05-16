@@ -50,7 +50,7 @@ The **application files** can be accessed on my [Github repository](https://gith
       * Create your `gitignore` and `.env` files.
       * Check the `dependencies` and `dev dependencies` needed on `package.json`.
 
-  * To set up all the existing npm packages, run `npm in it`.
+  * To set up all the existing npm packages, run `npm init`.
 
   * To install the `dependencies` on the `node_modules` folder, run `npm install` or
       * `npm i mysql2` to install MySQL2,
