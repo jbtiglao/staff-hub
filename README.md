@@ -9,6 +9,11 @@
   ## Description
   
  This is a command-line application that manages a company's employee database using Node.js, Inquirer, and MySQL.
+ 
+ It has the following appearance:
+ 
+ ![Demo, Part 1_ Employee Tracker](https://user-images.githubusercontent.com/94569484/168509534-d310a10d-30b9-4f3b-945c-016c0cfddb97.gif)
+
 
  A **walkthrough video** that demonstrates the functionality of this employee tracker can be viewed by clicking the following links:
 
@@ -19,6 +24,9 @@
  * [Part 3, Update an Employee's Manager and Delete Functions](https://drive.google.com/file/d/1qOxctsT7UeGaynuBZEZPNzgDqyn4IJ5D/view)
  
  * [Part 4, View Employees by Manager, Role, and Department and View a Department Budget](https://drive.google.com/file/d/1UppseuZeD2Z0sTc8QZIJ7TpGcD_jS_GF/view)
+
+The **application files** can be accessed on my [Github repository](https://github.com/jbtiglao/staff-hub).
+
 
   ---
   ## Table of Contents
