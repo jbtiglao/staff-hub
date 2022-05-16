@@ -7,10 +7,18 @@
 
   ---
   ## Description
-
+  
  This is a command-line application that manages a company's employee database using Node.js, Inquirer, and MySQL.
 
- A **walkthrough video** that demonstrates the functionality of this employee tracker can be [viewed here](link).
+ A **walkthrough video** that demonstrates the functionality of this employee tracker can be viewed by clicking the following links:
+
+ * [Part 1, View and Add Functionalities](https://drive.google.com/file/d/1XGdWUR5o0W7IQ5scTarA3xXjIai0W4f7/view)
+
+ * [Part 2, Update an Employee's Role](https://drive.google.com/file/d/1BFbU6JDcSLQikF3hIydT3cs2QxQeHbnl/view)
+ 
+ * [Part 3, Update an Employee's Manager and Delete Functions](https://drive.google.com/file/d/1qOxctsT7UeGaynuBZEZPNzgDqyn4IJ5D/view)
+ 
+ * [Part 4, View Employees by Manager, Role, and Department and View a Department Budget](https://drive.google.com/file/d/1UppseuZeD2Z0sTc8QZIJ7TpGcD_jS_GF/view)
 
   ---
   ## Table of Contents
