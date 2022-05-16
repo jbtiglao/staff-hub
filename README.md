@@ -3,13 +3,13 @@
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  (This is a working draft - assignment not yet submitted.)
-
   ---
   ## Description 📌  
  This is a command-line application that manages a company's employee database using Node.js, Inquirer, and MySQL.
+
+ It follows a content management systems (CMS) interface that allows non-developers to easily view and interact with information stored in the database.
  
- It has the following appearance:
+ The application has the following **appearance**:
  
 ![image16_appearance](https://user-images.githubusercontent.com/94569484/168509879-de4e1a31-177a-4a61-ae9c-d1f71960bfb2.png)
 
@@ -42,14 +42,24 @@ The **application files** can be accessed on my [Github repository](https://gith
   
   ---
   ## Installation 📌  
-  Clone my repository on GitHub.
+  * Clone my repository on GitHub.
 
-  
+  * On Visual Studio Code run 
+  ```
+  mysql -u root -p
+  ```
+  * Create the `schema.sql` tables and pre-populate the database with the data found in the `seeds.sql` files. 
+
+  * To invoke the application, run
+  ```
+  npm start
+  ```
+
   ---
   ## Usage 📌
-  Please see the video and screenshots.
+  Please see the walk-through demonstration videos, descripton, and features and functionalities sections.
 
-  ### Features and Functionalities 🔌
+### Features and Functionalities 🔌
   
 1. When the user starts the application, the user is presented with the following options:
     * view all departments,
@@ -156,15 +166,17 @@ The **application files** can be accessed on my [Github repository](https://gith
 
   ---
   ## Tests 📌
-  Test 1
+  The application and its functionalities are tested manually using Visual Studio Code. 
 
   ---
   ## Credits 📌  
   The following were consulted and used in the development of this application:
 
   * UCI Boot Camp study materials, videos, and internet resources on MySQL, Node.js, Express, and Inquirer.
-  * Jeff Howell and Mike Scharf for the homework walk-through videos (The videos are a big help. Thanks for putting them together and sharing them in the meeting room!).
-  * [npmjs](https://www.npmjs.com/) packages and documentations on MySQL, MySQL2, Node.js, Inquirer, and Express.js.
+  * Jeff Howell and Mike Scharf for the homework walk-through videos (Thanks for putting them together and sharing them in the meeting room. They are a big help!).
+  * [mySQL](https://www.mysql.com/)
+  * [Node.js](https://nodejs.org/en/)
+  * [npmjs](https://www.npmjs.com/) packages and documentations on MySQL2, Node.js, Inquirer, and Express.js.
   * [Screencastify](https://www.screencastify.com/?gclid=Cj0KCQjwmuiTBhDoARIsAPiv6L86ZrfuA4fljlKNWMKXRVVi_qKME9cQVwPHjmFd-rb_OYqJlURxmx8aAuTSEALw_wcB)
 
   ---
