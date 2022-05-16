@@ -58,7 +58,7 @@ The **application files** can be accessed on my [Github repository](https://gith
       * `npm i node` to install Node.js, and
       * `npm i console.table` to install console.table.
   
-  * Run MySql by entering the following command on the terminal:
+  * Run MySQL by entering the following command on the terminal:
         ```
         mysql -u root -p
         ```
