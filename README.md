@@ -59,17 +59,18 @@ The **application files** can be accessed on my [Github repository](https://gith
       * `npm i console.table` to install console.table.
   
   * Run MySQL by entering the following:
-        ```
-        mysql -u root -p
-        
-        ```
+
+    ```
+    mysql -u root -p
+    ```
         
   * Create the `schema.sql` tables and pre-populate the database with the data found in the `seeds.sql` files. 
 
   * To invoke the application, run
-  ```
-  npm start
-  ```
+
+    ```
+    npm start
+    ```
 
   ---
   ## Usage 📌
