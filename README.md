@@ -199,7 +199,7 @@ The **application files** can be accessed on my [Github repository](https://gith
 
   * UCI Boot Camp study materials, videos, and internet resources on MySQL, Node.js, and Inquirer.
   * Jeff Howell and Mike Scharf for the homework walk-through videos (Thanks for putting them together and sharing them in the meeting room. They are a big help!).
-  * The grader for my Social Media API assignment, whose comments encouraged me to plow through with my employee tracker app -- an assignment I considered to be one of the hardest and most tedious to do -- and not give up and submit subpar work. The grader also taught me the standard that I should keep when writing my README files. *Thank you!* 
+  * The grader for my Social Media API assignment, whose comments encouraged me to plow through with my employee tracker app -- an assignment I considered to be one of the hardest and most tedious to do -- and not give up and submit an unfinished work. The grader also taught me the standard that I should keep when writing my README files. *Thank you!* 
   * [mySQL](https://www.mysql.com/)
   * [Node.js](https://nodejs.org/en/)
   * [npmjs](https://www.npmjs.com/) packages and documentations on MySQL2, Node.js, Inquirer, and Express.js.
