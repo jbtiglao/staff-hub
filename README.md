@@ -12,7 +12,7 @@
  
  It has the following appearance:
  
- ![Demo, Part 1_ Employee Tracker](https://user-images.githubusercontent.com/94569484/168509534-d310a10d-30b9-4f3b-945c-016c0cfddb97.gif)
+![image16_appearance](https://user-images.githubusercontent.com/94569484/168509879-de4e1a31-177a-4a61-ae9c-d1f71960bfb2.png)
 
 
  A **walkthrough video** that demonstrates the functionality of this employee tracker can be viewed by clicking the following links:
